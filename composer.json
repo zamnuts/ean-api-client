@@ -1,0 +1,35 @@
+{
+    "name": "zamnuts/ean-api-client",
+    "description": "Expedia Affiliate Network API Client",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andrew Zammit",
+            "email": "zammit.andrew@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zamnuts/ean-api-client.git"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php-curl-class/php-curl-class": "~4.6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "zamnuts\\EANAPIClient\\": "src/zamnuts/EANAPIClient/"
+        }
+    },
+    "keywords": [
+        "expedia",
+        "ean",
+        "hotel",
+        "api",
+        "client"
+    ]
+}
